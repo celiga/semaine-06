@@ -1,0 +1,102 @@
+/* Styles.css */
+
+body{
+    background-color: #444;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    color:#fff;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+header{
+    background-color: #37bbd2;
+    padding:15px 0;
+}
+main{
+    margin-bottom: 15px;
+}
+main a{
+    display:block;
+}
+main a img{
+    display:block;
+    margin:0 auto;
+}
+/* User */
+.user{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-avatar,
+.user-name{
+    display:inline-block;
+}
+.user-avatar{
+    max-height: 60px;
+}
+.user-name{
+    margin-left:10px;
+}
+/* Blocs */
+.bloc{
+    margin-top:10px;
+    padding-left:10px;
+    padding-right:0;
+}
+.bloc-small img{
+    padding:50px 0;
+}
+.bloc-large img{
+    padding:130px 0;
+}
+.bloc-caption{
+    position:relative;
+    background-color: grey;
+    padding:15px;
+}
+.bloc-caption:after{
+    content:"\f0da";
+    font-family: fontawesome;
+    font-size:2em;
+    position:absolute;
+    top:50%;
+    right:15px;
+    margin-top:-20px;
+}
+/* Colors */
+.bloc-leaderboard a{ background-color:#f5f5f5; }
+.bloc-entertainment a{ background-color:#fa8a7e; }
+.bloc-sports a{ background-color:#b483ff; }
+.bloc-food a{ background-color:#b7f6c9; }
+.bloc-knowledge a{ background-color:#fbff86; }
+.bloc-geography a{ background-color:#f2867a; }
+.bloc-history a{ background-color:#7efeff; }
+.bloc-science a{ background-color:#b7f6c9; }
+.bloc-tv a{ background-color:#b483ff; }
+.bloc-music a{ background-color:#74e9ea; }
+.bloc-profile a{ background-color:#e8e8e8; }
+
+.bloc-leaderboard a .bloc-caption{ background-color:#989898; }
+.bloc-entertainment a .bloc-caption{ background-color:#f8504d; }
+.bloc-sports a .bloc-caption{ background-color:#7f53c6; }
+.bloc-food a .bloc-caption{ background-color:#35eab5; color:#444; }
+.bloc-knowledge a .bloc-caption{ background-color:#fbed1a; color:#444; }
+.bloc-geography a .bloc-caption{ background-color:#f8504d; }
+.bloc-history a .bloc-caption{ background-color:#3ea8f6; }
+.bloc-science a .bloc-caption{ background-color:#35eab5;  color:#444 }
+.bloc-tv a .bloc-caption{ background-color:#7f53c6; }
+.bloc-music a .bloc-caption{ background-color:#3ea8f6; }
+.bloc-profile a .bloc-caption{ background-color:#999999; }
+
+.bloc a:hover,
+.bloc a:focus{
+    color:#fff;
+    opacity:0.7;
+}
